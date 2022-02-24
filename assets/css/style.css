@@ -46,3 +46,48 @@ nav ul li a:hover{
         justify-content: center;
     }
 }
+
+/* background image and h1 */
+#main{
+    display: flex;
+    flex-direction: column ;
+    background-color: 0 0 0 0.5;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#main::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    background: url(../images/IMG_4151.JPG) no-repeat center center/cover ;
+    height: 965px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.context{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0;
+}
+@media screen and (max-width: 768px){
+    .heading{
+        font-size: 1.8rem;
+    }
+}
+span{
+    color: red;
+}
