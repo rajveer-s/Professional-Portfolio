@@ -91,3 +91,70 @@ nav ul li a:hover{
 span{
     color: red;
 }
+
+/* button class for contact me on img */
+.btn {
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: red;
+    border: 1px solid rgb(196, 30, 30);
+    color: black;
+    outline: none;
+    transition: .7s ease;
+
+}
+.btn:hover{
+    cursor: pointer;
+    /* background-color: red; */
+    color: white;
+    box-shadow: 0 0 15px white;
+}
+
+/* about me section */
+#about-me{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    box-sizing: border-box;
+}
+.about-me1{
+    display: flex;
+}
+.about-me1 img{
+    height: 500px;
+    width: 800px;
+}
+.about-me1 p{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    flex-direction: column;
+    line-height: 30px;
+}
+@media screen and (max-width: 768px) {
+      .about-me1  {
+          flex-direction: column;
+          align-items: center;
+    }
+    .about-me1 img{
+        height:400px ;
+        width: 500px;
+    }
+    .about-me1 p{
+        margin: 20px 10px;
+    }
+  }
+  @media screen and (max-width: 1450px) {
+    .about-me1  {
+        flex-direction: column;
+        align-items: center;
+  }
+  .about-me1 img{
+      height:400px ;
+      width: 500px;
+  }
+  .about-me1 p{
+      margin: 20px 10px;
+  }
+}
