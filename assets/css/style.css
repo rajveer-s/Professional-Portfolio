@@ -1,3 +1,4 @@
+/* universal selector */
 *{
     margin: 0;
     padding: 0;
@@ -12,9 +13,6 @@ nav{
     background-color: white;
     justify-content: right;
     align-items: center;
-    /* position: sticky;
-    top: 0;  */
-    /* opacity: .8; */
 }
 
 nav ul{
@@ -158,3 +156,61 @@ span{
       margin: 20px 10px;
   }
 }
+
+/* Work section Page */
+#work{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    /* flex: wrap ; */
+
+}
+.img-1{
+    background: url(../images/arnold-francisca-nPhl2x4fk2s-unsplash.jpg) no-repeat center center/cover ;
+    flex-direction: column;
+    height: 500px;
+    width: 700px;
+    color: white;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.img-1:hover{
+    box-shadow: 0 0 15px red;
+    cursor: pointer;
+}
+.img-2{
+    flex-direction: column;
+    height: 300px;
+    width: 360px;
+    border: 2px solid black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: url(../images/arnold-francisca-nPhl2x4fk2s-unsplash.jpg) no-repeat center center/cover ;
+}
+.img-2:hover{
+    border: none;
+    box-shadow: 0 0 15px red;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .img-1{
+        height: 300px;
+        width: 250px;
+    }
+    .img-2{
+        height: 120px;
+        width: 120px;
+    }
+}
+
+
