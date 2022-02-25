@@ -241,9 +241,11 @@ span{
 @media screen and (max-width: 768px){
     .input{
         width: 35%;
+        margin-top: 10px;
     }
     .inputtext{
         width:50%;
+        margin-top: 10px;
     }
 }
 
