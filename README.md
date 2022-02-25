@@ -10,7 +10,7 @@ A professional portfolio built with HTML and CSS. Skills such as Flexbox, media 
 ## Links:
 
 - [Github Link](https://github.com/rajveer-s/Professional-Portfolio)
-- [Deployed Link]()
+- [Deployed Link](https://rajveer-s.github.io/Professional-Portfolio/)
 
 
 
