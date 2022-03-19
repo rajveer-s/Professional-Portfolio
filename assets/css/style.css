@@ -349,3 +349,9 @@ div#box2 {
     }
   
 }
+#githubLogo{
+    font-size: 4rem;
+}
+#githubLogo a {
+    color: black;
+}
