@@ -199,9 +199,25 @@ span{
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
-    background: url(https://raw.githubusercontent.com/rajveer-s/Code-Quiz/main/Develop/Screenshots/CodeQuiz.png) no-repeat center center/cover ;
+    background: url(../images/CodeQuiz.png) no-repeat center center/cover ;
 }
 .img-2:hover{
+    border: none;
+    box-shadow: 0 0 15px red;
+    cursor: pointer;
+}
+.img-3{
+    flex-direction: column;
+    height: 300px;
+    width: 360px;
+    border: 2px solid black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: url(../images/Weather\ Dashboard.png) no-repeat center center/cover ;
+}
+.img-3:hover{
     border: none;
     box-shadow: 0 0 15px red;
     cursor: pointer;
@@ -216,6 +232,10 @@ span{
         width: 250px;
     }
     .img-2{
+        height: 120px;
+        width: 120px;
+    }
+    .img-3{
         height: 120px;
         width: 120px;
     }
