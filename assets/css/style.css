@@ -196,8 +196,8 @@ span{
 .img-1{
     background: url(../images/Adventure\ App.png) no-repeat center center/cover ;
     flex-direction: column;
-    height: 500px;
-    width:  110rem;
+    height: 40rem;
+    width:  80rem;
     color: white;
     border: 2px solid black;
     margin: 10px;
@@ -210,8 +210,8 @@ span{
 }
 .img-2{
     flex-direction: column;
-    height: 300px;
-    width: 80rem;
+    height: 30rem;
+    width: 60rem;
     border: 2px solid black;
     color: white;
     margin: 10px;
@@ -226,8 +226,8 @@ span{
 }
 .img-3{
     flex-direction: column;
-    height: 300px;
-    width: 80rem;
+    height: 30rem;
+    width: 60rem;
     border: 2px solid black;
     color: white;
     margin: 10px;
@@ -321,8 +321,8 @@ div#box2 {
     
     }
     .img-1{
-        height: 30rem;
-        width: 10rem;
+        height: 15rem;
+        width: 12rem;
     }
     .img-2{
         height: 120px;
@@ -333,7 +333,7 @@ div#box2 {
         width: 120px;
     }
 }
-@media screen and (max-width: 1700px){
+/* @media screen and (max-width: 1700px){
 
     .img-1{
         height: 200px;
@@ -348,7 +348,7 @@ div#box2 {
         width: 45rem;
     }
   
-}
+} */
 #githubLogo{
     font-size: 4rem;
 }
