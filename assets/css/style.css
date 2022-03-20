@@ -124,8 +124,9 @@ span{
     display: flex;
 }
 .about-me1 img{
-    height: 500px;
-    width: 800px;
+    height: 14rem;
+    width: 20rem;
+    margin: 0 2rem;
 }
 .about-me1 p{
     display: flex;
