@@ -1,5 +1,9 @@
 # Professional-Portfolio
 
+## [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    THIS APPLICATION  IS COVERED UNDER THE MIT LICENSE
+    
+---
 
 ## Table of Contents
   - [Description](#description)
