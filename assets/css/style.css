@@ -1,5 +1,5 @@
 /* universal selector */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,37 +8,38 @@
 }
 
 /* Navigation bar */
-nav{
+nav {
     display: flex;
     background-color: white;
     justify-content: right;
     align-items: center;
 }
 
-nav ul{
+nav ul {
     margin: 25px 0;
     display: flex;
 }
 
-nav ul li{
-    font-family:'Courier New', Courier, monospace;
-    font-size: 20px ;
+nav ul li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     font-weight: bold;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: black;
     padding: 10px 25px;
     transition: all .5s ease;
 }
- 
-nav ul li a:hover{
+
+nav ul li a:hover {
     background-color: red;
     color: black;
     box-shadow: 0 0 10px white;
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
     nav {
         flex-wrap: wrap;
         justify-content: center;
@@ -46,28 +47,30 @@ nav ul li a:hover{
 }
 
 /* background image and h1 */
-#main{
+#main {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     background-color: 0 0 0 0.5;
     height: 840px;
     justify-content: center;
     align-items: center;
     color: white;
 }
-#main::before{
+
+#main::before {
     content: "";
     position: absolute;
     top: 0;
     right: 0;
     background-color: black;
-    background: url(../images/IMG_4151.JPG) no-repeat center center/cover ;
+    background: url(../images/IMG_4151.JPG) no-repeat center center/cover;
     height: 965px;
     width: 100%;
     z-index: -1;
     opacity: .8;
 }
-.context{
+
+.context {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,18 +78,21 @@ nav ul li a:hover{
     top: 30%;
     left: 10%;
 }
-.heading{
+
+.heading {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
     text-align: center;
     margin: 40px 0;
 }
-@media screen and (max-width: 768px){
-    .heading{
+
+@media screen and (max-width: 768px) {
+    .heading {
         font-size: 1.8rem;
     }
 }
-span{
+
+span {
     color: red;
 }
 
@@ -102,79 +108,92 @@ span{
     transition: .7s ease;
 
 }
-.btn:hover{
+
+.btn:hover {
     cursor: pointer;
     color: white;
     box-shadow: 0 0 15px white;
 }
-.btn a{
+
+.btn a {
     color: #fff;
     outline: none;
     list-style: none;
 }
 
 /* about me section */
-#about-me{
+#about-me {
     display: flex;
     flex-direction: column;
     margin: 50px 0;
     box-sizing: border-box;
 }
-.about-me1{
+
+.about-me1 {
     display: flex;
 }
-.about-me1 img{
+
+.about-me1 img {
     height: 14rem;
     width: 20rem;
     margin: 0 2rem;
 }
-.about-me1 p{
+
+.about-me1 p {
     display: flex;
     font-size: 20px;
     padding: 10px;
     flex-direction: column;
     line-height: 30px;
 }
+
 @media screen and (max-width: 768px) {
-      .about-me1  {
-          flex-direction: column;
-          align-items: center;
-    }
-    .about-me1 img{
-        height:400px ;
-        width: 500px;
-    }
-    .about-me1 p{
-        margin: 20px 10px;
-    }
-  }
-  @media screen and (max-width: 1450px) {
-    .about-me1  {
+    .about-me1 {
         flex-direction: column;
         align-items: center;
-  }
-  .about-me1 img{
-      height:400px ;
-      width: 500px;
-  }
-  .about-me1 p{
-      margin: 20px 10px;
-  }
+    }
+
+    .about-me1 img {
+        height: 400px;
+        width: 500px;
+    }
+
+    .about-me1 p {
+        margin: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .about-me1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-me1 img {
+        height: 400px;
+        width: 500px;
+    }
+
+    .about-me1 p {
+        margin: 20px 10px;
+    }
 }
 
 /* Work section Page */
-#work{
+#work {
     padding: 20px;
     box-sizing: border-box;
 }
-.box{
+
+.box {
     width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
     margin-bottom: 3rem;
 }
-#box3{
+
+#box3 {
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -182,129 +201,147 @@ span{
     margin-bottom: 3rem;
 
 }
-#box4{
+
+#box4 {
     width: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
 
 }
-.headingWork{
+
+.headingWork {
     text-align: center;
     font-size: 2rem;
     font-style: italic;
-    color:  white;
+    color: white;
     background-size: 100%;
     background-image: linear-gradient(55deg, white, red);
 }
-.img-1{
-    background: url(../images/Adventure\ App.png) no-repeat center center/cover ;
+
+.img-1 {
+    background: url(../images/Adventure\ App.png) no-repeat center center/cover;
     flex-direction: column;
     height: 40rem;
-    width:  80rem;
+    width: 80rem;
     color: white;
     border: 2px solid black;
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
 }
-.img-1:hover{
-    box-shadow: 0 0 15px red;
-    cursor: pointer;
-}
-.img-2{
-    flex-direction: column;
-    height: 30rem;
-    width: 60rem;
-    border: 2px solid black;
-    color: white;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
-    background: url(../images/CodeQuiz.png) no-repeat center center/cover ;
-}
-.img-2:hover{
-    border: none;
-    box-shadow: 0 0 15px red;
-    cursor: pointer;
-}
-.img-3{
-    flex-direction: column;
-    height: 30rem;
-    width: 60rem;
-    border: 2px solid black;
-    color: white;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 20px;
-    background: url(../images/Weather\ Dashboard.png) no-repeat center center/cover ;
-}
-.img-3:hover{
-    border: none;
-    box-shadow: 0 0 15px red;
-    cursor: pointer;
-}
-@media screen and (max-width: 768px){
 
-    .img-1{
+.img-1:hover {
+    box-shadow: 0 0 15px red;
+    cursor: pointer;
+}
+
+.img-2 {
+    flex-direction: column;
+    height: 30rem;
+    width: 60rem;
+    border: 2px solid black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: url(../images/Sample-Image.png) no-repeat center center/cover;
+}
+
+.img-2:hover {
+    border: none;
+    box-shadow: 0 0 15px red;
+    cursor: pointer;
+}
+
+.img-3 {
+    flex-direction: column;
+    height: 30rem;
+    width: 60rem;
+    border: 2px solid black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background: url(../images/Weather\ Dashboard.png) no-repeat center center/cover;
+}
+
+.img-3:hover {
+    border: none;
+    box-shadow: 0 0 15px red;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    .img-1 {
         height: 150px;
         width: 150px;
     }
-    .img-2{
+
+    .img-2 {
         height: 120px;
         width: 120px;
     }
-    .img-3{
+
+    .img-3 {
         height: 120px;
         width: 120px;
     }
 }
 
 /* Contact me page */
-#contactme{
+#contactme {
     display: flex;
     flex-direction: column;
     background: url(https://images.unsplash.com/photo-1488998427799-e3362cec87c3?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1100&ixid=MnwxfDB8MXxyYW5kb218MHx8cGhvbmV8fHx8fHwxNjQ3NDE3MjE1&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=2200) no-repeat center center/cover;
     height: 860px;
 }
-.info1{
+
+.info1 {
     display: flex;
     flex-direction: column;
     padding: 5.80rem;
-    margin: 10px ;
+    margin: 10px;
     align-items: center;
     font-size: 2rem;
     font-weight: 600;
 }
-.input{
+
+.input {
     display: flex;
     padding: 10px;
     margin: 15px;
     width: 30%;
     color: black;
 }
-.inputtext{
+
+.inputtext {
     padding: 25px;
     margin: 20px 0;
     width: 30%;
 }
-@media screen and (max-width: 768px){
-    .input{
+
+@media screen and (max-width: 768px) {
+    .input {
         width: 35%;
         margin-top: 10px;
     }
-    .inputtext{
-        width:50%;
+
+    .inputtext {
+        width: 50%;
         margin-top: 10px;
     }
 }
-#contactIcons{
+
+#contactIcons {
     font-size: 3rem;
     display: flex;
     justify-content: space-around;
     margin: 15rem;
 }
-#contactIcons a{
+
+#contactIcons a {
     color: black;
 }
 
@@ -314,48 +351,56 @@ div#box2 {
     margin: 2rem;
     padding-left: 13.5rem;
 }
-@media screen and (max-width: 1180px){
 
-  .about-me1 img{
-      height:400px ;
-      width: 700px;
-  }
-  .about-me1 p{
-      margin: 20px 10px;
-    
+@media screen and (max-width: 1180px) {
+
+    .about-me1 img {
+        height: 400px;
+        width: 700px;
     }
-    .img-1{
+
+    .about-me1 p {
+        margin: 20px 10px;
+
+    }
+
+    .img-1 {
         height: 15rem;
         width: 12rem;
     }
-    .img-2{
+
+    .img-2 {
         height: 120px;
         width: 120px;
     }
-    .img-3{
+
+    .img-3 {
         height: 120px;
         width: 120px;
     }
 }
-#githubLogo{
+
+#githubLogo {
     font-size: 4rem;
 }
+
 #githubLogo a {
     color: black;
 
 }
 
 /* skills section  */
-#skills{
+#skills {
     display: flex;
     flex-direction: column;
-    
+
 }
-#icons{
+
+#icons {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center; 
+    align-items: center;
     font-size: 10rem;
     width: 100%;
-} 
+}
