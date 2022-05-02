@@ -1,4 +1,9 @@
 # Professional-Portfolio
+[![madebyraj.png](/assets/images/made-by-rajveer.svg)](https://rajveer-s.github.io/Professional-Portfolio/)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](/)
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](/)
+[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](/)
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](/)
 
 ## [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     THIS APPLICATION  IS COVERED UNDER THE MIT LICENSE
