@@ -394,6 +394,7 @@ div#box2 {
 #skills {
     display: flex;
     flex-direction: column;
+    background-color: #f5f5f5;
 
 }
 
